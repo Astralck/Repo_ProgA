@@ -27,6 +27,9 @@ Con ello se realizo un programa que muestra el tiempo de ejecución versus el ta
 
 Se obtuvo el siguiente gráfico:
 
+![Grafico_general](https://github.com/user-attachments/assets/4971f5de-d882-4bd1-a547-4db4b013c93e)
+
+
 Notamos que el algoritmo de la “función matemática” es mucho peor que el algoritmo de recorrer los nodos, aunque al inicio se creyó que la función matemática sería mejor, pero analizando vemos que hay un anidado de dos for para su formulación, dando con ello una notación big-O de O(n^2) la cual empeora el tiempo de ejecución muy rápido a medida que crece la dimensión de la grilla, en cambio el recorrer e ir sumando los caminos de la grilla logra el resultado con tan solo recorrer toda la grilla una vez (es más, no se recorre toda la grilla, las orillas no son recorridas) siendo así mucho más eficiente ya que seria aproximadamente O(n), siendo solo lineal a la dimensión de la grilla. 
 
 
